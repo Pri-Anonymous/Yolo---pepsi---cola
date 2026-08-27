@@ -1,4 +1,5 @@
-<img width="480" height="360" alt="demo" src="https://github.com/user-attachments/assets/2e8940b7-d18b-45ed-afef-9b61db0a60d6" /># Pepsi vs Coca-Cola Detector (YOLO11 Instance Segmentation)
+<img width="480" height="360" alt="demo" src="https://github.com/user-attachments/assets/2e8940b7-d18b-45ed-afef-9b61db0a60d6" />
+# Pepsi vs Coca-Cola Detector (YOLO11 Instance Segmentation)
 
 A custom computer vision model that detects and segments Pepsi and Coca-Cola cans in real time using a fine-tuned YOLO11 segmentation model, trained on a self-collected and self-annotated dataset.
 
