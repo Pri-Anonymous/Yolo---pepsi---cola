@@ -1,0 +1,13 @@
+train: D:/yolo-pepsi-coke/train/images
+val: D:/yolo-pepsi-coke/valid/images
+test: D:/yolo-pepsi-coke/test/images
+
+nc: 2
+names: ['cocacola', 'pepsi']
+
+roboflow:
+  workspace: priyanshu-gupta-qfekv
+  project: pepsi-cola
+  version: dataset
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/priyanshu-gupta-qfekv/pepsi-cola/dataset/dataset
