@@ -58,54 +58,7 @@ yolo-pepsi-coke/
 └── README.md
 ```
 
-## Setup
-
-1. **Clone the repo**
-   ```bash
-   git clone https://github.com/<your-username>/yolo-pepsi-coke.git
-   cd yolo-pepsi-coke
-   ```
-
-2. **Create and activate an environment**
-   ```bash
-   conda create -n python_yolo_sols python=3.12
-   conda activate python_yolo_sols
-   ```
-
-3. **Install dependencies**
-   ```bash
-   pip install ultralytics opencv-python
-   ```
-
-## Training
-
-```bash
-python train.py
-```
-
-Trains a YOLO11n-seg model on the dataset defined in `data.yaml`. Trained weights are saved to `runs/segment/<run-name>/weights/best.pt`.
-
-## Running Inference
-
-**On an image or folder:**
-```python
-from ultralytics import YOLO
-
-model = YOLO("runs/segment/<run-name>/weights/best.pt")
-model.predict(source="path/to/image_or_folder", show=True, save=True, conf=0.5)
-```
-
-**On a live webcam feed:**
-```bash
-python predictions.py
-```
-Opens your webcam and draws real-time bounding boxes/masks around detected Pepsi and Coca-Cola cans. Press `q` to quit.
-
-## Dataset
-
 The dataset was collected and annotated manually via [Roboflow](https://roboflow.com), using instance segmentation polygons rather than plain bounding boxes for more precise object boundaries.
-
-> **Note:** Due to size, the dataset itself is not included directly in this repo. See `data.yaml` for the expected folder structure, or link your own Roboflow export.
 
 ## Limitations & Future Work
 
@@ -115,9 +68,7 @@ The dataset was collected and annotated manually via [Roboflow](https://roboflow
   - Expand dataset with more angles, lighting conditions, and backgrounds
   - Experiment with YOLO11s-seg / YOLO11m-seg for improved accuracy
 
-## Adding Your Demo
-
-To embed a video/gif in this README on GitHub:
+##Demo
 ```markdown
 ![demo](demo.gif)
 ```
