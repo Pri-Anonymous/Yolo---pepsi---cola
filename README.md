@@ -1,4 +1,4 @@
-# Pepsi vs Coca-Cola Detector (YOLO11 Instance Segmentation)
+<img width="480" height="360" alt="demo" src="https://github.com/user-attachments/assets/2e8940b7-d18b-45ed-afef-9b61db0a60d6" /># Pepsi vs Coca-Cola Detector (YOLO11 Instance Segmentation)
 
 A custom computer vision model that detects and segments Pepsi and Coca-Cola cans in real time using a fine-tuned YOLO11 segmentation model, trained on a self-collected and self-annotated dataset.
 
@@ -68,12 +68,13 @@ The dataset was collected and annotated manually via [Roboflow](https://roboflow
   - Expand dataset with more angles, lighting conditions, and backgrounds
   - Experiment with YOLO11s-seg / YOLO11m-seg for improved accuracy
 
-##Demo
-```markdown
-![demo](demo.gif)
-```
-Place `demo.gif` in your repo root (or a `docs/` or `assets/` folder) and adjust the path accordingly. GitHub renders gifs inline automatically; `.mp4`/`.avi` files won't autoplay in the README, so convert your `.avi` demo to a `.gif` first (e.g. using [ezgif.com](https://ezgif.com) or `ffmpeg`).
+## Demo
 
+```markdown
+[demo]<img width="480" height="360" alt="demo" src="https://github.com/user-attachments/assets/41ad2e50-2d88-4e69-b70f-fa0ac0ae9ec3" />
+
+
+```
 ## Acknowledgements
 
 - [Ultralytics YOLO11](https://github.com/ultralytics/ultralytics)
