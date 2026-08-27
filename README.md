@@ -9,8 +9,6 @@ A custom computer vision model that detects and segments Pepsi and Coca-Cola can
 
 Real-time detection running on a live webcam feed, drawing segmentation masks and confidence scores around detected cans.
 
-*(Add your demo GIF/video here — see "Adding Your Demo" section below)*
-
 ## Overview
 
 This project covers the full computer vision pipeline end-to-end:
